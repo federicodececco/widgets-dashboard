@@ -1,0 +1,301 @@
+{
+  "orders": [
+    {
+      "orderId": "ORD-2024-10-00847",
+      "orderDate": "2024-10-14T09:23:15Z",
+      "status": "completed",
+      "customer": {
+        "customerId": "CUST-45892",
+        "email": "marco.rossi@example.com",
+        "name": "Marco Rossi",
+        "accountType": "premium"
+      },
+      "items": [
+        {
+          "productId": "PROD-SW-4589",
+          "productName": "Adobe Creative Cloud All Apps",
+          "type": "software_license",
+          "quantity": 1,
+          "price": 599.88,
+          "discount": 119.98,
+          "licenseKey": "ADBE-CC24-XXXX-XXXX-XXXX-8473",
+          "validUntil": "2025-10-14T23:59:59Z"
+        }
+      ],
+      "payment": {
+        "method": "credit_card",
+        "status": "paid",
+        "total": 585.48,
+        "currency": "EUR"
+      },
+      "fulfillment": {
+        "status": "fulfilled",
+        "deliveredAt": "2024-10-14T09:25:00Z"
+      }
+    },
+    {
+      "orderId": "ORD-2024-10-00848",
+      "orderDate": "2024-10-14T10:47:32Z",
+      "status": "processing",
+      "customer": {
+        "customerId": "CUST-78341",
+        "email": "laura.bianchi@techcorp.it",
+        "name": "Laura Bianchi",
+        "accountType": "business",
+        "company": "TechCorp Solutions SRL"
+      },
+      "items": [
+        {
+          "productId": "PROD-CRS-7821",
+          "productName": "Advanced JavaScript & React Development Masterclass",
+          "type": "online_course",
+          "quantity": 5,
+          "price": 749.95,
+          "discount": 224.99,
+          "seats": 5,
+          "validUntil": "2025-10-14T23:59:59Z"
+        },
+        {
+          "productId": "PROD-EBOOK-3421",
+          "productName": "Clean Code: A Handbook of Agile Software Craftsmanship",
+          "type": "ebook",
+          "quantity": 5,
+          "price": 149.95,
+          "discount": 37.49,
+          "format": "pdf"
+        }
+      ],
+      "payment": {
+        "method": "bank_transfer",
+        "status": "pending",
+        "total": 777.65,
+        "currency": "EUR",
+        "dueDate": "2024-10-16T23:59:59Z"
+      },
+      "fulfillment": {
+        "status": "awaiting_payment",
+        "deliveredAt": null
+      }
+    },
+    {
+      "orderId": "ORD-2024-10-00849",
+      "orderDate": "2024-10-14T11:15:08Z",
+      "status": "completed",
+      "customer": {
+        "customerId": "CUST-92847",
+        "email": "giuseppe.verdi@freelance.net",
+        "name": "Giuseppe Verdi",
+        "accountType": "individual"
+      },
+      "items": [
+        {
+          "productId": "PROD-MUS-8921",
+          "productName": "Royalty-Free Music Pack - Vol. 3",
+          "type": "music_library",
+          "quantity": 1,
+          "price": 79.99,
+          "discount": 0,
+          "tracks": 50,
+          "license": "commercial_use"
+        }
+      ],
+      "payment": {
+        "method": "paypal",
+        "status": "paid",
+        "total": 79.99,
+        "currency": "EUR"
+      },
+      "fulfillment": {
+        "status": "fulfilled",
+        "deliveredAt": "2024-10-14T11:16:30Z"
+      }
+    },
+    {
+      "orderId": "ORD-2024-10-00850",
+      "orderDate": "2024-10-14T13:42:19Z",
+      "status": "refunded",
+      "customer": {
+        "customerId": "CUST-34521",
+        "email": "anna.ferrari@gmail.com",
+        "name": "Anna Ferrari",
+        "accountType": "individual"
+      },
+      "items": [
+        {
+          "productId": "PROD-TEMP-5643",
+          "productName": "Website Template Bundle - Premium",
+          "type": "web_template",
+          "quantity": 1,
+          "price": 129.00,
+          "discount": 25.80,
+          "templates": 12
+        }
+      ],
+      "payment": {
+        "method": "credit_card",
+        "status": "refunded",
+        "total": 103.20,
+        "currency": "EUR",
+        "refundedAt": "2024-10-14T16:20:00Z",
+        "refundReason": "customer_request"
+      },
+      "fulfillment": {
+        "status": "cancelled",
+        "deliveredAt": "2024-10-14T13:43:00Z"
+      }
+    },
+    {
+      "orderId": "ORD-2024-10-00851",
+      "orderDate": "2024-10-14T14:28:54Z",
+      "status": "completed",
+      "customer": {
+        "customerId": "CUST-67234",
+        "email": "studio.design@creativestudio.it",
+        "name": "Creative Studio",
+        "accountType": "business",
+        "company": "Creative Studio Agency"
+      },
+      "items": [
+        {
+          "productId": "PROD-FONT-3298",
+          "productName": "Premium Font Family - Complete Collection",
+          "type": "font_license",
+          "quantity": 1,
+          "price": 299.00,
+          "discount": 0,
+          "fonts": 24,
+          "license": "commercial_unlimited"
+        },
+        {
+          "productId": "PROD-ICON-7812",
+          "productName": "Icon Set Pro - 5000 Icons",
+          "type": "design_asset",
+          "quantity": 1,
+          "price": 89.00,
+          "discount": 0,
+          "formats": ["svg", "png", "ai"]
+        }
+      ],
+      "payment": {
+        "method": "credit_card",
+        "status": "paid",
+        "total": 388.00,
+        "currency": "EUR"
+      },
+      "fulfillment": {
+        "status": "fulfilled",
+        "deliveredAt": "2024-10-14T14:29:45Z"
+      }
+    },
+    {
+      "orderId": "ORD-2024-10-00852",
+      "orderDate": "2024-10-14T15:03:27Z",
+      "status": "completed",
+      "customer": {
+        "customerId": "CUST-89123",
+        "email": "francesca.conti@example.com",
+        "name": "Francesca Conti",
+        "accountType": "premium"
+      },
+      "items": [
+        {
+          "productId": "PROD-PHOTO-4521",
+          "productName": "Stock Photo Subscription - Monthly",
+          "type": "subscription",
+          "quantity": 1,
+          "price": 49.99,
+          "discount": 10.00,
+          "downloads": 50,
+          "billingCycle": "monthly",
+          "nextBillingDate": "2024-11-14T00:00:00Z"
+        }
+      ],
+      "payment": {
+        "method": "credit_card",
+        "status": "paid",
+        "total": 39.99,
+        "currency": "EUR"
+      },
+      "fulfillment": {
+        "status": "fulfilled",
+        "deliveredAt": "2024-10-14T15:04:00Z"
+      }
+    },
+    {
+      "orderId": "ORD-2024-10-00853",
+      "orderDate": "2024-10-14T16:19:42Z",
+      "status": "failed",
+      "customer": {
+        "customerId": "CUST-45678",
+        "email": "roberto.colombo@test.com",
+        "name": "Roberto Colombo",
+        "accountType": "individual"
+      },
+      "items": [
+        {
+          "productId": "PROD-GAME-8934",
+          "productName": "Indie Game Bundle - 10 Games",
+          "type": "game_bundle",
+          "quantity": 1,
+          "price": 29.99,
+          "discount": 0
+        }
+      ],
+      "payment": {
+        "method": "credit_card",
+        "status": "failed",
+        "total": 29.99,
+        "currency": "EUR",
+        "failureReason": "insufficient_funds"
+      },
+      "fulfillment": {
+        "status": "not_fulfilled",
+        "deliveredAt": null
+      }
+    },
+    {
+      "orderId": "ORD-2024-10-00854",
+      "orderDate": "2024-10-14T17:45:11Z",
+      "status": "completed",
+      "customer": {
+        "customerId": "CUST-23891",
+        "email": "marketing@bizcompany.com",
+        "name": "Marketing Team",
+        "accountType": "enterprise",
+        "company": "Biz Company International"
+      },
+      "items": [
+        {
+          "productId": "PROD-VID-6721",
+          "productName": "Stock Video Library - Annual License",
+          "type": "video_library",
+          "quantity": 1,
+          "price": 1299.00,
+          "discount": 259.80,
+          "videos": 500,
+          "validUntil": "2025-10-14T23:59:59Z"
+        },
+        {
+          "productId": "PROD-AUD-2341",
+          "productName": "Sound Effects Pack - Complete",
+          "type": "audio_library",
+          "quantity": 1,
+          "price": 199.00,
+          "discount": 0,
+          "sounds": 2000
+        }
+      ],
+      "payment": {
+        "method": "invoice",
+        "status": "paid",
+        "total": 1238.20,
+        "currency": "EUR",
+        "invoiceNumber": "INV-2024-00524"
+      },
+      "fulfillment": {
+        "status": "fulfilled",
+        "deliveredAt": "2024-10-14T17:47:00Z"
+      }
+    }
+  ]
+}
