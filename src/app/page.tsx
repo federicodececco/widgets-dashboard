@@ -2,7 +2,6 @@
 
 import PieChartWithLegend from "@/components/PieChartWithLegend";
 import { createClient } from "@/util/supabase/client";
-import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -23,12 +22,14 @@ export default function Home() {
 
   return (
     <main>
-      <section className="grid grid-cols-2 md:grid-cols-4">
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-2">
         {chartData != null && (
-          <div>
+          <div className="text-center border-1 border-black">
+            <div>Ordini</div>
             <PieChartWithLegend data={chartData}></PieChartWithLegend>
           </div>
         )}
+        <div className=" border-1 border-black"></div>
       </section>
     </main>
   );

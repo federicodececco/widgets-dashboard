@@ -51,7 +51,7 @@ export default function PieChartWithLegend({ data }: PieChartInterface) {
             dataKey="value"
             label
           >
-            {data.map((entry, index) => (
+            {elaboratedData.map((entry, index) => (
               <Cell
                 key={`cell-${entry.name}`}
                 fill={COLORS[index % COLORS.length]}

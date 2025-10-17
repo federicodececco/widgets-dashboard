@@ -24,3 +24,11 @@ export type PieChartData = {
   name: string;
   value: number;
 };
+
+export type Customer = {
+  firstName: string;
+  lastName: string;
+  email: string;
+  transactionCompleted: boolean;
+  created_at: Date;
+};
